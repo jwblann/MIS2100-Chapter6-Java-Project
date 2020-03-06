@@ -89,7 +89,7 @@ public class Main {
 			try {
 				lblNewLabel_3.setText(x);
 				
-			} catch (ArithmeticException f) {
+			} catch (ArithmeticException e) {
 				lblNewLabel_3.setText("Cannot divide by 0");
 			}
 		}
