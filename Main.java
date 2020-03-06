@@ -84,9 +84,10 @@ public class Main {
 			double denominator = Double.parseDouble(textField_1.getText());
 			
 			SimpleMath simpleMath1 = new SimpleMath();
-			double result = simpleMath1.divide(numerator, denominator);
-			String x = String.valueOf(result);
+			
 			try {
+				double result = simpleMath1.divide(numerator, denominator);
+				String x = String.valueOf(result);
 				lblNewLabel_3.setText(x);
 				
 			} catch (ArithmeticException e) {
